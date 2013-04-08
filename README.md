@@ -1,0 +1,4 @@
+finechoice
+==========
+
+FineChoice collaborative budgeting
