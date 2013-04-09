@@ -12,9 +12,10 @@ id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
   amount int NOT NULL
 );
 
-create table budgetadmins (
+create table budgetauth (
 user int NOT NULL,
-budget int NOT NULL
+budget int NOT NULL,
+admin bool NOT NULL
 );
 
 create table items(
