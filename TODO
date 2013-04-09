@@ -1,0 +1,16 @@
+index.php should list the surveys which a user has been invited to complete,
+allow a user to create a budget.
+
+Implement page for a participant to complete and edit a survey.
+
+Add a page for an admin to edit a budget.
+
+Add groups of users. An admin should be able to add or edit a group and
+automatically invite people in that group to complete a budget survey.
+
+Figure out how best to score budgets (is there an existing module that could
+be plugged in?)
+
+Testing of some kind would be desirable.
+
+Should users be allowed to add their own items?

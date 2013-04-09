@@ -1,0 +1,17 @@
+FineChoice
+==========
+
+FineChoice is intended to facilitate the process of collecting input from
+a large group of individuals in order to formulate a budget. An administrator
+can create a survey listing a number of proposed items, and users taking the
+survey will indicate the choices that they would prefer be made. Each item
+will be scored based on its cost and the number of users that select it, and
+a budget will be proposed by the site with the goal of maximizing the total
+score and, in doing so, tabulating the input of the users who take the survey.
+
+=========
+Setup:
+
+1. Edit config.php.
+2. mysql -p<password> createdb.sql
+3. mysql <ppassword> create.sql
