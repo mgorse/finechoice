@@ -15,7 +15,8 @@ id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
 create table budgetauth (
 user int NOT NULL,
 budget int NOT NULL,
-admin bool NOT NULL
+admin bool NOT NULL,
+primary key (user, budget)
 );
 
 create table items(
