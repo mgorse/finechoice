@@ -54,4 +54,15 @@ function dbconnect() {
   }
   return $GLOBALS['mysqli'];
 }
+
+function budgetname($id)
+{
+  $mysqli = dbconnect();
+  $q = $mysqli->query("select name from budgets where id = $id");
+  $r = $q->fetch_assoc();
+  $name = $r['name'];
+  $q->free_result();
+  return $name;
+}
+
 ?>
