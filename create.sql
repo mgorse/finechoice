@@ -30,7 +30,7 @@ id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
 create table selections(
   user int NOT NULL,
   item int NOT NULL,
-  cost int NOT NULL,
+  amount int NOT NULL,
 primary key (user, item)
 );
 
