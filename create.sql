@@ -8,7 +8,7 @@ pass varchar(50)
 
 create table budgets(
 id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  name varchar(50),
+  name varchar(50) NOT NULL,
   amount int NOT NULL
 );
 
