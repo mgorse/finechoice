@@ -1,4 +1,8 @@
-Implement page for a participant to complete and edit a survey.
+survey.php should check  items already selected (ie, make it easier to edit
+  selections).
+
+survey.php should have a script to tally the amount of money spent / let the
+  user know what is left after items are checked and unchecked.
 
 Can't edit or close a budget; only create new ones.
 Would be nice to be able to add more than 10 items/emails at a time.
