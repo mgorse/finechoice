@@ -22,3 +22,7 @@ be plugged in?)
 Testing of some kind would be desirable.
 
 Should users be allowed to add their own items?
+
+comments.php doesn't filter the user's comment in any way, meaning that, among
+  other things, users can enter any kind of html/script that they want. This is
+  a big problem.

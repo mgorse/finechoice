@@ -1,5 +1,5 @@
 <?php
 $dbhost = "localhost";
 $dbname = "budget";
-$dbuser = "user";
+$dbuser = "mgorse";
 $dbpass = "xyzzy";

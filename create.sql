@@ -38,6 +38,7 @@ create table comments(
   id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
   user int NOT NULL,
   item int NOT NULL,
-  comment varchar(255)
+  time timestamp NOT NULL,
+  comment mediumtext NOT NULL
 );
 
